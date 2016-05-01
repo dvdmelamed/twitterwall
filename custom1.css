@@ -107,7 +107,7 @@ body {
   background-image: url(images/default.png);
 }
 #roomSix[data-time="0930"] {
-  background-image: url(images/default.png);
+  background-image: url(images/opening.png);
 }
 #roomSix[data-time="0945"] {
   background-image: url(images/speakers/travis-oliphant.png);
@@ -165,7 +165,7 @@ body {
   background-image: url(images/default.png);
 }
 #roomEight[data-time="0930"] {
-  background-image: url(images/default.png);
+  background-image: url(images/opening.png);
 }
 #roomEight[data-time="0945"] {
   background-image: url(images/speakers/travis-oliphant.png);
