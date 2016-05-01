@@ -1,36 +1,20 @@
 .hflex-wrapper {
-  display: -webkit-box; 
-  -webkit-box-orient: horizontal;
-  display: -moz-box; 
-  -moz-box-orient: horizontal;
-  display: box; 
-  box-orient: horizontal;
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
   position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
 }
 
-.vflex-wrapper50 {
-  display: -webkit-box; 
-  -webkit-box-orient: vertical;
-  display: -moz-box; 
-  -moz-box-orient: vertical;
-  display: box; 
-  box-orient: vertical;
-  height: 100%; 
+.hflex-wrapper > * {
+  overflow: auto;
   width: 50%;
 }
 
-.hflex-wrapper > *,
-.vflex-wrapper50 > * {
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  box-flex: 1;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-}
+.mainColumn { position: relative; height: 100%; }
+#schedules > div { height: 50%; }
 
 body, p, li, ul { margin: 0; padding: 0; }
 article, section, footer, header, nav, hgroup {
@@ -44,22 +28,22 @@ article, section, footer, header, nav, hgroup {
 body {
   margin: 0 auto;
   padding: 0;
-  height: 100%; 
-  overflow: hidden; 
+  height: 100%;
+  overflow: hidden;
 }
 
-#schedule > * {
+.schedule > * {
   position: relative;
   z-index: 1;
   padding: 0;
   margin: 0;
 }
 
-#tweets { 
-  top: 0; 
-  height: 100%; 
-  width: 100%; 
-  overflow: hidden; 
+#tweets {
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 a {
@@ -86,40 +70,30 @@ img.pic {
 .hentry .meta { font-size: 0.764em; margin: 3px 0 0; display: block; }
 #tweets { background-repeat: no-repeat; background-position: -200px 250px; }
 
-#schedule > div {
+.schedule > div {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+#notices { position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 42; }
+
 #notices > div {
-  display: none;
-  z-index: 1;
+  position: absolute; left: 0; top: 0; right: 0; bottom: 0;
+  background: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  opacity: 0;
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
+  -moz-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
 }
 
 #notices > div.show {
   opacity: 1;
-  display: block;
-}
-
-#notices .fullscreen {
-  -webkit-transform: translateZ(0);
-  -webkit-transition: all 100ms ease-in-out;
-  -moz-transform: translateZ(0);
-  -moz-transition: all 100ms ease-in-out;
-  -o-transform: translateZ(0);
-  -o-transition: all 100ms ease-in-out;
-  -ms-transform: translateZ(0);
-  -ms-transition: all 100ms ease-in-out;
-  transform: translateZ(0);
-  transition: all 100ms ease-in-out;
-  display: block !important;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 99999;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }

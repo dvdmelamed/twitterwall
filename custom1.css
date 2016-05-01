@@ -1,0 +1,242 @@
+@font-face {
+     font-family: 'OSPDIN';
+     src: url('fonts/OSP-DIN-webfont.eot');
+     src: url('fonts/OSP-DIN-webfont.eot?#iefix') format('embedded-opentype'),
+          url('fonts/OSP-DIN-webfont.woff') format('woff'),
+          url('fonts/OSP-DIN-webfont.ttf') format('truetype'),
+          url('fonts/OSP-DIN-webfont.svg#OSPDIN') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+
+html {
+  background-color: #dadada;
+}
+
+body {
+  font-family: OSPDIN, sans-serif;
+  color: #93cfd6;
+  font-size: 24px;
+  letter-spacing: -0.05em;
+}
+
+.schedule div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255,255,255,0.6);
+  padding: 20px;
+}
+
+.schedule div > * {
+  margin: 0;
+  padding: 0;
+}
+
+.schedule {
+  color: #000;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.schedule a {
+  color: rgba(0,0,0,0.7);
+}
+
+.schedule .timing {
+  font-size: 1.2em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.schedule .room, .schedule time { color: #AE0E5B; }
+
+.schedule .twitter {
+  margin-left: 0.1em;
+  font-size: 60%;
+  letter-spacing: -0.1em;
+  font-family: Monaco, "DejaVu Sans Mono", "Courier New", monospace;
+  color: #494949;
+}
+
+.schedule h3 {
+  padding-top: 0px;
+  font-size: 2em;
+  line-height: 0.9em;
+  clear: right;
+  color: #1786A2;
+}
+
+.schedule h2 {
+  line-height: 1.3em;
+  font-size: 1.5em;
+  color: #AE0E5B;
+}
+
+.schedule > * {
+  text-shadow: 1px 1px 0 #ddd;
+}
+
+.schedule img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  z-index: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* twitter colours */
+#tweets a { color: rgba(255,255,255,0.7); }
+.hentry .meta, #tweets .meta a { color: #99CFD7; }
+#tweets li { background: rgba(255, 255, 255, 0.2); }
+.tweet { color: #fff; }
+
+#roomSix, #roomEight {
+  background-image: url(images/speakers/default.png);
+}
+
+/* May 2 */
+
+#roomSix[data-time="0900"] {
+  background-image: url(images/default.png);
+}
+#roomSix[data-time="0930"] {
+  background-image: url(images/default.png);
+}
+#roomSix[data-time="0945"] {
+  background-image: url(images/speaker-pics/travis-oliphant.png);
+}
+#roomSix[data-time="1030"] {
+  background-image: url(images/speaker-pics/ola-sendecka.png);
+}
+#roomSix[data-time="1115"] {
+  background-image: url(images/break1.jpg);
+}
+#roomSix[data-time="1130"] {
+  background-image: url(images/speaker-pics/matti-picus.png);
+}
+#roomSix[data-time="1200"] {
+  background-image: url(images/speaker-pics/sim-zacks.png);
+}
+#roomSix[data-time="1230"] {
+  background-image: url(images/lunch-1.jpg);
+}
+#roomSix[data-time="1330"] {
+  background-image: url(images/speaker-pics/john-schwartz.png);
+}
+#roomSix[data-time="1400"] {
+  background-image: url(images/speaker-pics/julian-berman);
+}
+#roomSix[data-time="1430"] {
+  background-image: url(images/speaker-pics/eli-gur.png);
+}
+#roomSix[data-time="1500"] {
+  background-image: url(images/break1.jpg);
+}
+#roomSix[data-time="1530"] {
+  background-image: url(images/speaker-pics/sagiv-mahili.png);
+}
+#roomSix[data-time="1600"] {
+  background-image: url(images/speaker-pics/ron-barak.png);
+}
+#roomSix[data-time="1630"] {
+  background-image: url(images/speaker-pics/francesco-vollero.png);
+}
+#roomSix[data-time="1730"] {
+  background-image: url(images/default.png);
+}
+#roomSix[data-time="1845"] {
+  background-image: url(images/default.png);
+}
+
+#roomEight[data-time="0900"] {
+  background-image: url(images/default.png);
+}
+#roomEight[data-time="0930"] {
+  background-image: url(images/default.png);
+}
+#roomEight[data-time="0945"] {
+  background-image: url(images/speaker-pics/travis-oliphant.png);
+}
+#roomEight[data-time="1030"] {
+  background-image: url(images/speaker-pics/ola-sendecka.png);
+}
+#roomEight[data-time="1115"] {
+  background-image: url(images/break1.jpg);
+}
+#roomEight[data-time="1130"] {
+  background-image: url(images/speaker-pics/orsolya-vasarhelyi.png);
+}
+#roomEight[data-time="1200"] {
+  background-image: url(images/speaker-pics/anna-herlihy.png);
+}
+#roomEight[data-time="1230"] {
+  background-image: url(images/lunch-1.jpg);
+}
+#roomEight[data-time="1330"] {
+  background-image: url(images/speaker-pics/jonathan-arfa.png);
+}
+#roomEight[data-time="1400"] {
+  background-image: url(images/speaker-pics/uzi-halabi-senerman.png);
+}
+#roomEight[data-time="1430"] {
+  background-image: url(images/speaker-pics/ari-bornstein.png);
+}
+#roomEight[data-time="1500"] {
+  background-image: url(images/speaker-pics/yoav-ram.png);
+}
+#roomEight[data-time="1530"] {
+  background-image: url(images/break1.jpg);
+}
+#roomEight[data-time="1600"] {
+  background-image: url(images/speaker-pics/omer-nevo.png);
+}
+#roomEight[data-time="1630"] {
+  background-image: url(images/speaker-pics/rony-sheer.png);
+}
+#roomEight[data-time="1730"] {
+  background-image: url(images/default.png);
+}
+#roomEight[data-time="1845"] {
+  background-image: url(images/default.png);
+}
+
+#tweets { font-family: sans-serif; }
+#tweets li { background: white; }
+.tweet { color: #1786A2; }
+#tweets a { color: #1C9EC2; }
+#tweets strong a { color: #AE0E5B; }
+
+#notices > div {
+  background-color: #FFFFFF;
+  color: #1C9EC2;
+  font-size: 2em;
+}
+
+#sponsor-list p + p { margin-top: 1em; }
+
+#clock {
+  /* display: none; */
+  position: fixed;
+  z-index: 9999;
+  padding: 0 0.25em;
+  width: auto;
+  height: auto;
+  right: 10px;
+  bottom: 10px;
+  font-size: 2em;
+  border: none;
+  border-radius: 0.4em;
+  background: #13c2f8;
+  color: white;
+  opacity: 0.5;
+}
+#clock:hover, #clock:focus {
+  background: #0fabdc; cursor: pointer;
+}

@@ -1,16 +1,18 @@
 var config = {
   // Twitter API (Proxy) URL
-  baseUrl: 'http://localhost:7890',
+  baseUrl: 'http://127.0.0.1:7890',
 
   debug: false,
-  title: 'Twitter wall built by @rem',
+  title: 'PyCon Israel 2016',
 
-  search: 'from:@fullfrontalconf OR @fullfrontalconf OR #fullfrontalconf OR #fullfrontal2011 OR full-frontal.org OR #fullfrontal11',
-  list: 'fullfrontalconf/delegates11', // optional, just comment it out if you don't want it
+  search: 'from:@pyconil OR @pyconil OR #pyconil',
+  // list: 'fullfrontalconf/delegates11', // optional, just comment it out if you don't want it
 
   timings: {
-    showNextScheduleEarlyBy: '5m', // show the next schedule 10 minutes early
-    defaultNoticeHoldTime: '10s',
+    showNextScheduleEarlyBy: '10m', // show the next schedule 10 minutes after the previous starts
+    defaultNoticeHoldTime: '15s',
+    defaultNoticeInterval: '2m',
+    initialNoticeDelay: '2m',
     showTweetsEvery: '3s'
   }
 };
