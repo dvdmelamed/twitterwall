@@ -110,49 +110,55 @@ body {
   background-image: url(images/default.png);
 }
 #roomSix[data-time="0945"] {
-  background-image: url(images/speaker-pics/travis-oliphant.png);
+  background-image: url(images/speakers/travis-oliphant.png);
 }
 #roomSix[data-time="1030"] {
-  background-image: url(images/speaker-pics/ola-sendecka.png);
+  background-image: url(images/speakers/ola-sendecka-sitarska.png);
 }
 #roomSix[data-time="1115"] {
-  background-image: url(images/break1.jpg);
+  background-image: url(images/break-1.png);
 }
 #roomSix[data-time="1130"] {
-  background-image: url(images/speaker-pics/matti-picus.png);
+  background-image: url(images/speakers/matti-picus.png);
 }
 #roomSix[data-time="1200"] {
-  background-image: url(images/speaker-pics/sim-zacks.png);
+  background-image: url(images/speakers/sim-zacks.png);
 }
 #roomSix[data-time="1230"] {
   background-image: url(images/lunch-1.jpg);
 }
 #roomSix[data-time="1330"] {
-  background-image: url(images/speaker-pics/john-schwartz.png);
+  background-image: url(images/speakers/john-schwarz.png);
 }
 #roomSix[data-time="1400"] {
-  background-image: url(images/speaker-pics/julian-berman);
+  background-image: url(images/speakers/julian-berman.png);
 }
 #roomSix[data-time="1430"] {
-  background-image: url(images/speaker-pics/eli-gur.png);
+  background-image: url(images/speakers/eli-gur.png);
 }
 #roomSix[data-time="1500"] {
-  background-image: url(images/break1.jpg);
+  background-image: url(images/break-1.png);
 }
 #roomSix[data-time="1530"] {
-  background-image: url(images/speaker-pics/sagiv-mahili.png);
+  background-image: url(images/speakers/sagiv-mahili.png);
 }
 #roomSix[data-time="1600"] {
-  background-image: url(images/speaker-pics/ron-barak.png);
+  background-image: url(images/speakers/ron-barak.png);
 }
 #roomSix[data-time="1630"] {
-  background-image: url(images/speaker-pics/francesco-vollero.png);
+  background-image: url(images/speakers/francesco-vollero.png);
 }
 #roomSix[data-time="1730"] {
-  background-image: url(images/default.png);
+  background-image: url(images/party.png);
+}
+#roomSix[data-time="1845"] {
+  background-image: url(images/movie.png);
 }
 #roomSix[data-time="1845"] {
   background-image: url(images/default.png);
+}
+#roomSix[data-time="2000"] {
+  background-image: url(images/day2.png);
 }
 
 #roomEight[data-time="0900"] {
@@ -162,49 +168,52 @@ body {
   background-image: url(images/default.png);
 }
 #roomEight[data-time="0945"] {
-  background-image: url(images/speaker-pics/travis-oliphant.png);
+  background-image: url(images/speakers/travis-oliphant.png);
 }
 #roomEight[data-time="1030"] {
-  background-image: url(images/speaker-pics/ola-sendecka.png);
+  background-image: url(images/speakers/ola-sendecka-sitarska.png);
 }
 #roomEight[data-time="1115"] {
-  background-image: url(images/break1.jpg);
+  background-image: url(images/break-1.png);
 }
 #roomEight[data-time="1130"] {
-  background-image: url(images/speaker-pics/orsolya-vasarhelyi.png);
+  background-image: url(images/default.png);
 }
 #roomEight[data-time="1200"] {
-  background-image: url(images/speaker-pics/anna-herlihy.png);
+  background-image: url(images/speakers/anna-herlihy.png);
 }
 #roomEight[data-time="1230"] {
   background-image: url(images/lunch-1.jpg);
 }
 #roomEight[data-time="1330"] {
-  background-image: url(images/speaker-pics/jonathan-arfa.png);
+  background-image: url(images/speakers/jonathan-arfa.png);
 }
 #roomEight[data-time="1400"] {
-  background-image: url(images/speaker-pics/uzi-halabi-senerman.png);
+  background-image: url(images/speakers/uzi-halaby-senerman.png);
 }
 #roomEight[data-time="1430"] {
-  background-image: url(images/speaker-pics/ari-bornstein.png);
+  background-image: url(images/speakers/ari-bornstein.png);
 }
 #roomEight[data-time="1500"] {
-  background-image: url(images/speaker-pics/yoav-ram.png);
+  background-image: url(images/speakers/yoav-ram.png);
 }
 #roomEight[data-time="1530"] {
-  background-image: url(images/break1.jpg);
+  background-image: url(images/break-1.png);
 }
 #roomEight[data-time="1600"] {
-  background-image: url(images/speaker-pics/omer-nevo.png);
+  background-image: url(images/speakers/omer-nevo.png);
 }
 #roomEight[data-time="1630"] {
-  background-image: url(images/speaker-pics/rony-sheer.png);
+  background-image: url(images/speakers/rony-sheer.png);
 }
 #roomEight[data-time="1730"] {
-  background-image: url(images/default.png);
+  background-image: url(images/party.png);
 }
 #roomEight[data-time="1845"] {
-  background-image: url(images/default.png);
+  background-image: url(images/movie.png);
+}
+#roomEight[data-time="2000"] {
+  background-image: url(images/day2.png);
 }
 
 #tweets { font-family: sans-serif; }
