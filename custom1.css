@@ -125,7 +125,7 @@ body {
   background-image: url(images/speakers/sim-zacks.png);
 }
 #roomSix[data-time="1230"] {
-  background-image: url(images/lunch-1.jpg);
+  background-image: url(images/lunch.png);
 }
 #roomSix[data-time="1330"] {
   background-image: url(images/speakers/john-schwarz.png);
@@ -154,9 +154,6 @@ body {
 #roomSix[data-time="1845"] {
   background-image: url(images/movie.png);
 }
-#roomSix[data-time="1845"] {
-  background-image: url(images/default.png);
-}
 #roomSix[data-time="2000"] {
   background-image: url(images/day2.png);
 }
@@ -183,7 +180,7 @@ body {
   background-image: url(images/speakers/anna-herlihy.png);
 }
 #roomEight[data-time="1230"] {
-  background-image: url(images/lunch-1.jpg);
+  background-image: url(images/lunch.png);
 }
 #roomEight[data-time="1330"] {
   background-image: url(images/speakers/jonathan-arfa.png);
