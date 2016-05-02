@@ -10,8 +10,8 @@ var config = {
 
   timings: {
     showNextScheduleEarlyBy: '10m', // show the next schedule 10 minutes after the previous starts
-    defaultNoticeHoldTime: '15s',
-    defaultNoticeInterval: '10s',
+    defaultNoticeHoldTime: '30s',
+    defaultNoticeInterval: '5m',
     initialNoticeDelay: '10s',
     showTweetsEvery: '3s'
   }
